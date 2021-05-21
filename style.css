@@ -1,3 +1,10 @@
 body {
     background-color:#fff;
 }
+.ibonsai{
+    position: absolute;
+    height: 31px;
+    left:0.03%;
+    right: 87%;
+    top: calc(50%-31px/2+11.5px);
+}
