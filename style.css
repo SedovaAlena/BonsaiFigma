@@ -2,15 +2,18 @@ body {
     background-color:#fff;
 }
 .ibonsai{
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
     font: 100;
     font-size: 31px;
     float: left;
-    color: #39b481;
-    position: absolute;
+    text-align: right;
     height: 31px;
     left:0.03%;
     right: 87%;
+}
+#logo{
+    color: #39b481;
+    position: absolute;
 }
 #buttom1{
     position:sticky;
@@ -22,7 +25,7 @@ body {
     margin-left:0;
     margin-right:10px;
     border: 2px solid;
-    border-radius: 17%;
+    border-radius: 3px;
 }
 #buttom2{
     background-color: #39b481;
@@ -32,5 +35,20 @@ body {
     margin-right: auto;
     border: 2px solid;
     border-color: #39b481;
-    border-radius: 17%;
+    border-radius: 3px;
+}
+footer{
+    position: absolute;
+height: 635px;
+left: 16%;
+right: 16%;
+  padding-left: auto;
+  padding-right: 50px;
+  padding-top: 10px;    
+}
+li{
+    list-style-type:  none;
+}
+ul.footer{
+    display: inline-flex;
 }
