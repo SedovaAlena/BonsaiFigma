@@ -1,19 +1,21 @@
 body {
     background-color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    
+}
+
 .ibonsai{
-    /*font-family: Arial, Helvetica, sans-serif;*/
+    position: sticky;
+    
     font: 100;
     font-size: 31px;
     float: left;
-    text-align: right;
-    height: 31px;
-    left:0.03%;
-    right: 87%;
+    text-align: right;  
 }
 #logo{
     color: #39b481;
-    position: absolute;
 }
 #buttom1{
     position:sticky;
@@ -22,7 +24,8 @@ body {
     font-size: 20px;
     float:left; 
     text-align:right ;
-    margin-left:0;
+    margin-top: 31px;
+    margin-left:10px;
     margin-right:10px;
     border: 2px solid;
     border-radius: 3px;
@@ -32,6 +35,7 @@ body {
     color: #ffffff;
     font-size: 20px;
     text-align: right ;
+    margin-top: 31px;
     margin-right: auto;
     border: 2px solid;
     border-color: #39b481;
